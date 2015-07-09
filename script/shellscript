@@ -1,0 +1,5 @@
+#!/bin/bash
+ 
+# I use this example as an excersice to create an Apple installer package for a shellscript that can be updated by multiple people.
+
+touch /tmp/"foo2.test.$(date +%F_%R)".txt
